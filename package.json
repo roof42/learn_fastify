@@ -1,0 +1,21 @@
+{
+  "name": "first_fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.20.1",
+    "fastify-mongodb": "^4.0.1",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1"
+  }
+}
