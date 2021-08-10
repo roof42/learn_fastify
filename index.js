@@ -1,8 +1,9 @@
 const fastify = require('fastify')({ logger: true })
-const dbconnector = require('./postgres-connector')
+const dbConnector = require('./postgres-connector')
+const firstRouter = require('./our-first-route')
 
-fastify.register(dbconnector)
-fastify.register(require('./our-first-route'))
+fastify.register(dbConnector)
+fastify.register(firstRouter)
 
 const start = async () => {
     try {
